@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gyanadipta Pahi — Android Developer</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  .container { max-width: 640px; width: 100%; }
+  h1 { font-size: 2rem; margin-bottom: 4px; }
+  .subtitle { color: #8b949e; margin-bottom: 32px; font-size: 1.05rem; }
+  .apps { display: flex; flex-direction: column; gap: 16px; }
+  .app-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 20px;
+    transition: border-color 0.2s;
+  }
+  .app-card:hover { border-color: #58a6ff; }
+  .app-name { font-size: 1.15rem; font-weight: 600; margin-bottom: 6px; }
+  .app-desc { color: #8b949e; font-size: 0.95rem; margin-bottom: 12px; }
+  .app-links a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-right: 18px;
+  }
+  .app-links a:hover { text-decoration: underline; }
+  footer { margin-top: 40px; color: #6e7681; font-size: 0.85rem; text-align: center; }
+  footer a { color: #6e7681; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Gyanadipta Pahi</h1>
+    <p class="subtitle">Founder &amp; Android Developer</p>
+    <p class="subtitle" style="margin-top:-24px; font-size:0.95rem;">Mohasin Ansari &middot; Co-founder</p>
+
+    <div class="apps">
+      <div class="app-card">
+        <div class="app-name">GPRecorder — Screen Recorder: HD Video</div>
+        <div class="app-desc">Native Android screen recorder with floating controls, pause/resume, and HD export.</div>
+        <div class="app-links">
+          <a href="https://play.google.com/store/apps/details?id=com.gprecorder.app" target="_blank">Play Store</a>
+          <a href="https://gyanadiptapahi.github.io/gprecorder-privacy/" target="_blank">Privacy Policy</a>
+        </div>
+      </div>
+
+      <div class="app-card">
+        <div class="app-name">Image Compressor</div>
+        <div class="app-desc">Fast, lightweight image compression app built with Kotlin and Jetpack Compose.</div>
+        <div class="app-links">
+          <a href="https://play.google.com/store/apps/details?id=com.myimage.app" target="_blank">Play Store</a>
+          <a href="https://gyanadiptapahi.github.io/myimage-privacy/" target="_blank">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2026 Gyanadipta Pahi &middot; <a href="mailto:gyanadiptapahi@gmail.com">Contact</a>
+    </footer>
+  </div>
+</body>
+</html>
